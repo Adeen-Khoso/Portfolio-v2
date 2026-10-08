@@ -300,7 +300,7 @@ footer .w{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 /* ---- EDIT THESE ---- */
 const ME={name:"Muhammad Adeen",email:"adeenkhoso@gmail.com",github:"https://github.com/Adeen-Khoso",linkedin:"https://www.linkedin.com/in/adeen-khoso/",instagram:"https://instagram.com/ad3nn9",shopinit:"https://shopinit.netlify.app",shopinitRepo:"https://github.com/Adeen-Khoso/Shopinit"};
 /* Screenshots: paste an image path or data URI for any slot. Empty slots show a placeholder. */
-const IMG={shopinit:"",proj2:"",proj3:"",craft1:"",craft2:"",craft3:"",craft4:"",craft5:"",insta:"",yt:""};
+const IMG={shopinit:"https://i.postimg.cc/PqVrwyfD/Screenshot-2026-10-08-at-5-01-59-AM.png",proj2:"",proj3:"",craft1:"",craft2:"",craft3:"",craft4:"",craft5:"",insta:"",yt:""};
 /* -------------------- */
 const $=s=>document.querySelectorAll(s),reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 $('[data-link]').forEach(a=>{const k=a.dataset.link;a.href=k==='email'?'mailto:'+ME.email:ME[k];if(k==='email')a.textContent=ME.email});
